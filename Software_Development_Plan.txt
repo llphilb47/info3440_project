@@ -1,0 +1,318 @@
+<Project Name>
+Software Development Plan (Small Project)
+Version <1.0>
+
+
+
+
+Revision History
+ 
+Date	Version	Description	Author	   
+<dd/mmm/yy>	<x.x>	<details>	<name>	   
+				   
+				   
+				 
+
+
+
+
+
+
+
+
+
+
+
+Table of Contents
+1.	Introduction 3
+1.1	Purpose Error! Bookmark not defined.
+1.2	Scope Error! Bookmark not defined.
+1.3	Definitions, Acronyms, and Abbreviations Error! Bookmark not defined.
+1.4	References Error! Bookmark not defined.
+1.5	Overview Error! Bookmark not defined.
+2.	Project Overview Error! Bookmark not defined.
+2.1	Project Purpose, Scope, and Objectives Error! Bookmark not defined.
+2.2	Assumptions and Constraints Error! Bookmark not defined.
+2.3	Project Deliverables Error! Bookmark not defined.
+2.4	Evolution of the Software Development Plan Error! Bookmark not defined.
+3.	Project Organization Error! Bookmark not defined.
+3.1	Organizational Structure Error! Bookmark not defined.
+3.2	External Interfaces Error! Bookmark not defined.
+3.3	Roles and Responsibilities Error! Bookmark not defined.
+4.	Management Process Error! Bookmark not defined.
+4.1	Project Estimates Error! Bookmark not defined.
+4.2	Project Plan Error! Bookmark not defined.
+4.2.1	Phase Plan Error! Bookmark not defined.
+4.2.2	Iteration Objectives Error! Bookmark not defined.
+4.2.3	Releases Error! Bookmark not defined.
+4.2.4	Project Schedule Error! Bookmark not defined.
+4.2.5	Project Resourcing Error! Bookmark not defined.
+4.3	Project Monitoring and Control 3
+5.	Annexes 3
+Software Development Plan (Small Project)
+
+Introduction
+[The introduction of the Software Development Plan provides an overview of the entire document. It includes the purpose, scope, definitions, acronyms, abbreviations, references, and overview of this Software Development Plan.] 
+
+Purpose
+[Specify the purpose of this Software Development Plan. The text below is provided as an example. ]
+This Software Development Plan aims to collect the necessary information to initiate, develop, and modify the AkiProPlus project. This will be executed by: having the development plan function as the top-level plan used by managers to direct the development cycle and by describing the approach to the development of the new management system. It will be used to direct the project's development from the project's inception (requirements planning) to the launch of the AkiProPlus Project. 
+Members using this plan will be:
+The project manager
+Project team members  
+                         
+Scope
+[A brief description of the scope of this Software Development Plan; what Project(s) it is associated with and anything else that is affected or influenced by this document. The text below is provided as an example.]
+Justification
+The scope of the Software Development Plan is divided into several phases. These phases are governed by the needs and deliverables obtained from AkiBakery. The needs of the business require an in-depth automated system capable of strengthening core business processes that enable production and distribution.
+Objectives
+Primarily the intended system seeks to rectify issues pertaining to invoicing, data storage, inventory management, and customer feedback. Invoices should be automated and dynamic. To be specific, the system will allow remote use to facilitate purchase order changes in real time. The whole premise of the intended system is efficiency. The goal is optimize the core processes in order to better facilitate executive decision making.
+The Objectives can be classified as followed: 
+Specific
+Measureable
+Attainable
+Realistic
+Time Bound
+CHANGES
+
+Description 
+The end product of the system will satisfy all functional requirements of AkiBakery.These requirements include automated billing and procurement, CRM features, data storage, data recovery and some measure of interoperability.
+
+This Software Development Plan describes the overall plan to be used by the <project name> project, including deployment of the product. The details of the individual iterations will be described in the Iteration Plans.
+The plans as outlined in this document are based upon the product requirements as defined in the Vision Document.
+Definitions, Acronyms, and Abbreviations
+[This subsection provides the definitions of all terms, acronyms, and abbreviations required to properly interpret the Software Development Plan. This information may be provided by reference to the project's Glossary
+AkiPro: The original management software system used by AkiBakery which will eventually be replaced by the new management system AkiProPlus.
+AkiBakery: The name of the bakery using the AkiPro management system.
+RDBMS: Relational Database Management System.
+
+See the Project Glossary.
+References
+[This subsection provides a complete list of all documents referenced elsewhere in the Software Development Plan. Identify each document by title, report number if applicable, date, and publishing organization. Specify the sources from which the references can be obtained. This information may be provided by reference to an appendix or to another document. 
+For the Software Development Plan, the list of referenced artifacts includes: 
+RUP for Small Projects Website
+Iteration Plans 
+Development Case
+Vision
+Glossary
+Any other supporting plans or documentation.
+
+Overview
+[This subsection describes what the rest of the Software Development Plan contains and explains how the document is organized. The text below is provided as an example.]
+This Software Development Plan contains the following information:
+Project Overviewÿ- provides a description of the project's purpose, scope, and objectives.ÿ It also defines the deliverables that the project is expected to deliver.
+Project Organizationÿ- describes the organizational structure of the project team.
+Management Processÿ- explains the estimated cost and schedule, defines the major phases and milestones for the project, and describes how the project will be monitored.
+Applicable Plans and Guidelinesÿ- provides an overview of the software development process, including methods, tools and techniques to be followed.
+
+Project Overview
+Project Purpose, Scope, and Objectives
+[A brief description of the purpose and objectives of this project and a brief description of what deliverables the project is expected to deliver.]
+Functional Requirements 
+Customers should be allowed access to their resources through authentication via a username and password.
+Customers must be able to request for a change of their password if they happen to forget it.
+The system must be able to provide a customer a new password if the customer happened to forget it.
+Customers should be able to request a standing order.
+Once a standing order is approved by a clerk, the system must generate a list of the various orders that must be carried out for that particular day.
+Van Drivers must be able to request a copy of a list with the respective orders that must be carried out for a particular route from the system which will be stored their tablets.
+Customers must be able to request modifications to their standing orders.
+Clerks must be able to approve or disapprove a customer's request to make a modification to a standing order.
+Purchase orders from the suppliers must be stored in the central database of AkiPro-Plus in order to keep check of the ingredients the business currently have  in stock 
+The system must make provisions for the clerks so they can adjust orders in case there are changes to be made, example return of items and discrepancies in orders. 
+Customers should be able to check their invoices and balances.
+Customers and clerks should be able to cancel orders via the system's interface.
+The system must provide the bank and suppliers with documents including reports about ...
+The system must provide options for the customer to check the status of their orders made and view their respective balances.
+The system must provide the customer with feedback containing information about if the order made was successful and provide options in which transactions can be made via a credit or debit card.
+The customer should be able to make phone orders, orders via the use of AkiPro-Plus web interface and also order via cash payments.
+The system should be able to differentiate between the different types of customers who are categorized as daily, weekly and monthly paid customers.
+Clerks must be able to generate an order based on a customer request for an order.
+Van Drivers and merchandisers must be able to upload a localized copy of the database management system on their company tablets.
+Van Drivers and merchandisers must be able to synchronize the localized copy of the database management system on their company tablets to the main database management system.
+Van drivers should be able to print invoices.
+Merchandisers must be able to make changes on standing orders using their company tablets.
+Merchandisers must be able to indicate to the AkiProPlus management system if certain products are not selling as well as forecasted.
+The AkiProPlus management system must be able to update inventory data regarding inventory replenishment based on received goods from suppliers via received purchase orders.       
+The AkiProPlus management system must be able to store relevant data of recipes and inventory.
+The AkiProPlus management system must be able to create financial graphs on a timely basis (in real-time). 
+The AkiProPlus management system must be able to create weekly reports outlining the status of the inventory.
+The Management department must be able to analyze the real-time created financial graphs created by the AkiProPlus management system to assist in decision-making business processes.
+The Management department must be able to access weekly reports outlining the status of the inventory to make the required purchase orders to suppliers for inventory replenishment. 
+The Supplier must come with a purchase order to AkiBakery to be accepted and payed by a clerk
+Clerks must be able to receive purchase orders from suppliers to either accept or decline a purchase order
+Clerks must be able to financially clear purchase orders for the suppliers to ship their products to the bakery.
+The Supplier must be able to replenish the inventory once the associated purchase order has been accepted and financially cleared.
+
+Non-Functional Requirements
+
+The system must be able to recover from an unexpected shutdown.
+The system must be able to continue operating during a power outage. (Up until how long?)
+The system must be user friendly.
+The system must be maintainable.
+The system must have adequate means of security (only authorized users have access to certain functions). 
+The system must allow for seamless use between all platforms and devices.
+
+
+
+
+AkiBakery expects the new system to produce the following:
+Automate the input of orders into the system 
+Automate the printing of invoices 
+Automate the input and modification of the status of products (whether or not they are doing well) 
+Automate the input and modification of standing orders (by the company's merchandisers using their company tablet machines and the company's clients using the web on desktops and mobile OS's ) 
+Must contain a RDBMS which contains all the data about orders, standing orders, recipes, clients, etc. 
+There should be a relational database management system dedicated to the van- drivers which at the end of the day, information collected from the van drivers would be uploaded into the main database system.
+Automate the management of clients of the bakery (the accounts of clients) / Maybe a CRM system? 
+Creation of real-time graphs (such as financial graphs) for enhanced decision-making capabilities 
+Automation of input of purchase orders into the system (approved purchase orders become either standing orders or regular orders) 
+Customers should be able to login from any device to view their accounts, place orders depending on the type of customer. 
+
+
+Assumptions and Constraints
+[A list of assumptions that this plan is based and any constraints, for example. budget, staff, equipment, schedule, that apply to the project.]
+Contraints:
+The project must be completed within a 12 week time period
+The system must allow staff and customers to be able to have access to the system via any device eg. Tablets, Pc's, Mobile devies etc.
+The tablets which will be given to van drivers should be at a  low - cost in order to maintain a profitable state.
+Assumptions:
+
+
+Project Deliverables
+[A list of the artifacts to be created during the project, including target delivery dates. The text below is provided as an example.]
+Deliverables for each project phase are identified in the Development Case.  Deliverables are delivered towards the end of the iteration, as specified in section 4.2.4 Project Schedule.
+
+
+
+Evolution of the Software Development Plan
+[A table of proposed versions of the Software Development Plan, and the criteria for the unscheduled revision and reissue of this plan. The text below is provided as an example.]
+The Software Development Plan will be revised prior to the start of each Iteration phase.
+Project Organization
+Organizational Structure
+[Describe the organizational structure of the project team, including management and other review authorities.]
+External Interfaces
+[Describe how the project interfaces with external groups. For each external group, identify the internal and external contact names. This should include responsibilities related to deployment and acceptance of the product.]
+
+Merchandisers : 
+Will be able to monitor  stock movements provided that all products have been distributed.
+Will be allowed to make changes to standing orders once a product is not selling as it should.
+Are allowed to monitor reports, data trends and also figure analysis using an Electronic Point of Sale System (EPoS). Using the EPoS system merchandisers will have the ability to detect or spot areas where the demand on certain products lie.
+Using the provided technology Merchandisers can  calculate which selling product has the most profit and even monitor customers purchasing habits which they will then input all this data into the system so AkiPro Plus can make changes which will improve the overall reliability of the business.
+Van drivers:
+Are allowed to utilize the route information from the  tablet to deliver goods to the relevant customers.  
+Will be allowed to do on demand sales, this type responsibility belongs to the van driver exclusively.                 
+     
+http://www.retailhumanresources.com/job-seekers/retail-job-descriptions/merchandiser-job-description
+http://epos.uk.com/what-is-epos.html
+
+
+
+
+
+
+
+Roles and Responsibilities
+[Identify the project organizational units that will be responsible for each of the disciplines, workflow details, and supporting processes. The text below is provided as an example.]
+ 
+Person	Rational Unified Process Role	   
+Sally Slalom, Senior Manager	Project Manager
+Deployment Manager
+Requirements Reviewer
+Architecture Reviewer
+Configuration Manager
+Change Control Manager	   
+Matt Mogul, VP Operations	Project Reviewer
+Requirements Reviewer	   
+Tom Telemark, Senior Software Engineer	System Analyst
+Requirements Specifier
+User Interface Designer
+Software Architect
+Design Reviewer
+Test Manager
+Test Analyst
+and to a lesser extent the following roles:
+Designer
+Implementer
+Code Reviewer
+Integrator
+Test Designer
+Tester
+Technical Writer	   
+Susan Snow, Software Engineer
+Henry Halfpipe, Junior Software Engineer
+TBD1, Software Engineer
+TBD2, Junior Software Engineer	Designer
+Implementer
+Code Reviewer
+Integrator
+Test Designer
+Tester
+Technical Writer 	   
+Patrick Powder, Administrative Assistant	Responsible for maintaining the Project web site, assisting the Project Manager role in planning/scheduling activities, and assisting the Change Control Manager role in controlling changes to artifacts. May also provide assistance to other roles as necessary.	 
+
+Anyone on the project can perform Any Role activities.
+Management Process
+Project Estimates
+[Provide the estimated cost and schedule for the project, as well as the basis for those estimates, and the points and circumstances in the project when re-estimation will occur.]
+Project Plan
+[This section contains the schedule and resources for the project.]
+Phase Plan
+[Include the following:
+ú     Work Breakdown Structure (WBS) - optional for small projects
+ú     a timeline or Gantt chart showing the allocation of time to the project phases or iterations
+ú     identify major milestones with their achievement criteria
+Define any important release points and demos.]
+Iteration Objectives
+[List the objectives to be accomplished for each of the iterations.]
+Releases
+[A brief description of each software release and whether it's demo, beta, and so on.]
+Project Schedule
+[Diagrams or tables showing target dates for completion of iterations and phases, release points, demos, and other milestones.]
+Project Resourcing
+ÿ[Identify the numbers and type of staff required here, including any special skills or experience, scheduled by project phase or iteration.
+ÿDescribe how you will approach finding and acquiring the staff needed for the project.
+ÿList any special training project team members will require, with target dates for when this training should be completed.
+ÿAllocation of costs against the WBS and the Phase Plan.]
+Project Monitoring and Control
+ÿ[The following is a checklist of items to consider:
+Requirements Management : Specify the information and control mechanisms which will be collected and used for measuring, reporting, and controlling changes to the product requirements.
+Schedule and Budget Control:Describe the approach to be taken to monitor spending against the project budget and progress against the planned schedule. Describe how to take corrective action when required. 
+Quality Control:Describe the timing and methods to be used to control the quality of the project deliverables and how to take corrective action when required. Include techniques, metrics, criteria, and procedures used for evaluation- this will include walkthroughs, inspections, and reviews. Note that this is in addition to the Test Plan, which is not enclosed in the Software Development Plan.
+Reporting and Measurement: Describe internal and external reports to be generated, and the frequency and distribution of publication. Specify which metrics should be collected and why.
+Risk Management: Describe the approach that will be used to identify, analyze, prioritize, monitor and mitigate risks. Include a list of risks and their current status.
+Project Close-out: Describe the activities for the orderly completion of the project, including staff reassignment, archiving of project materials, post-mortem debriefings and reports, and so forth.
+Configuration Management: Describe the process by which problems and changes are submitted, reviewed, and dispositioned. Describe how project or product artifacts are to be named, marked, and numbered, including hardware, system software, Commercial-Off-The-Shelf (COTS), plans, models, components, test software, results and data, executables, and so on. Describe retention policies, and the back-up, disaster, and recovery plans. Also describe how the media is to be retained-online, offline, media type, and format.
+Problem Resolution: Describe the approach to be taken to resolve disagreements with the customer, including how to handle schedule slips, scope, and contractual disagreements. 
+Subcontractor Management: Describe how subcontractors will be managed.
+Process Improvement Plan: Describe how the effectiveness of the process will be assessed and improved.
+The text that follows is provided as an example.]
+Requirements Management
+The requirements for this system are captured in the Vision document. Requested changes to requirements are captured in Change Requests, and are approved as part of the Configuration Management process. 
+Schedule and Budget Control
+Expenses are monitored by the project manager, and reported and assessed monthly. (See Reporting and Measurement below).
+The project manager maintains a schedule showing the expected date of each milestone. The line items in the schedule include work packages assigned to individuals. Each individual who is assigned a work package provides %completion information to the project manager on a weekly basis. Changes in the schedule will be escalated to the project sponsors, who will then decide whether to alter scope in order to preserve target completion dates.
+Quality Control
+Defects will be recorded and tracked as Change Requests, and defect metrics will be gathered (see Reporting and Measurement below).
+ All deliverables are required to go through the appropriate review process, as described in the Development Case. The review is required to ensure that each deliverable is of acceptable quality, using guidelines described in the RUP for Small Projects review guidelines and checklists.
+Any defects found during review which are not corrected prior to releasing for integration must be captured as Change Requests so that they are not forgotten.
+Reporting and Measurement
+Updated cost and schedule estimates, and metrics summary reports, will be generated at the end of each iteration.
+The Minimal Set of Metrics, as described in the RUP Guidelines: Metrics, will be gathered on a weekly basis.  These include:
+Earned value for completed tasks. This is used to re-estimate the schedule and budget for the remainder of the project, and/or to identify need for scope changes. 
+Total defects open and closed - shown as a trend graph. This is used to help estimate the effort remaining to correct defects. 
+Acceptance test cases passing - shown as a trend graph. This is used to demonstrate progress to stakeholders.
+In addition, overall costs will be monitored against the project budget.
+Risk Management 
+Risks will be identified in Inception Phase using the steps identified in the RUP for Small Projects activity "Identify and Assess Risks". Project risk is evaluated at least once per iteration and documented in this table. The risks of the greatest magnitude are listed first in the table.
+ 
+Risk Ranking (High, Medium, Low)	Risk Description and Impact	Mitigation Strategy and/or Contingency Plan	   
+			 
+
+Configuration Management
+Appropriate tools will be selected which provide a database of Change Requests and a controlled versioned repository of project artifacts. 
+All source code, test scripts, and data files are included in baselines. Documentation related to the source code is also included in the baseline, such as design documentation. All customer deliverable artifacts are included in the final baseline of the iteration, including executables.
+The Change Requests are reviewed and approved by one member of the project, the Change Control Manager role. 
+Full backups are performed monthly and incrementals are performed nightly. 
+Annexes
+[Additional material of use to the reader of the Software Development Plan. Reference or include any project technical standards and plans which apply to this project. This typically includes the Development Case, plans for infrastructure, and product acceptance. It also typically includes Programming Guidelines, Design Guidelines, and other process guidelines. The text that follows is provided as an example.]
+The project will follow the RUP for Small Projects process, as tailored by the project Development Case.
+Other applicable process plans are listed in the references section, including Programming Guidelines.
